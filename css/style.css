@@ -74,6 +74,8 @@ body {
 }
 /******************/
 /* General reusable components */
+/******************/
+
 .heading-primary {
   font-size: 4rem;
   font-weight: 700;
@@ -119,6 +121,8 @@ body {
 
 /******************/
 /* Header */
+/******************/
+
 .header {
   display: flex;
   align-items: center;
@@ -131,8 +135,44 @@ body {
   height: 2.2rem;
 }
 
-/******************/
+/****************/
+/* Navigation */
+/****************/
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+  list-style-type: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 500;
+  font-size: 1.56rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e67e22;
+  text-decoration: none;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  color: #fdf2e9;
+  background-color: #e67e22;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/****************/
 /* Hero Section */
+/****************/
 
 .section-hero {
   background-color: #fdf2e9;
