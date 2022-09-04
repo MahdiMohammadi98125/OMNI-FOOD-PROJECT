@@ -70,11 +70,11 @@ html {
 body {
   color: #555;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 9.6rem 9rem;
 }
 .hero {
   max-width: 130rem;
@@ -85,17 +85,17 @@ body {
   gap: 9.6rem;
 }
 .heading-primary {
-  font-size: 4.2rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
-  margin-bottom: 4.8rem;
+  margin-bottom: 4rem;
 }
 
 .btn:link,
@@ -108,6 +108,7 @@ body {
   font-size: 1.4rem;
   border-radius: 9px;
   transition: background-color 0.4s;
+  font-weight: 600;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -135,4 +136,27 @@ body {
 }
 .margin-right-sm {
   margin-right: 1.2rem;
+}
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-top: 8rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  width: 4.4rem;
+  border: 3px solid #fdf2e9;
+  border-radius: 150px;
+  margin: -9px;
+}
+
+.delivered-text p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.delivered-text p span {
+  color: #cf711f;
 }
