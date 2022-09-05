@@ -76,13 +76,48 @@ body {
 /* General reusable components */
 /******************/
 
-.heading-primary {
-  font-size: 4rem;
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
-  line-height: 1.05;
-  color: #333;
+  color: #45260a;
   letter-spacing: -0.5px;
+}
+.heading-primary {
+  line-height: 1.05;
+  font-size: 5rem;
   margin-bottom: 2rem;
+}
+.heading-secondary {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+.subheading {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  display: block;
 }
 .btn:link,
 .btn:visited {
@@ -225,4 +260,15 @@ body {
 }
 .delivered-text p span {
   color: #cf711f;
+}
+
+/****************/
+/*Section how it works */
+/****************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+.step-img {
+  width: 50%;
 }
