@@ -278,24 +278,50 @@
 /****************/
 
 .section-testimonials {
-  padding: 0 9.6rem;
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+.testimonials-container {
+  padding: 9.6rem;
 }
 .testimonials {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 4.6rem;
+  row-gap: 4.6rem;
+  column-gap: 8rem;
 }
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
   margin-bottom: 1.2rem;
 }
+
 .testimonial-text {
   font-size: 1.6rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
 .testimonial-name {
-  color: #777;
+  color: #6f6f6f;
   font-size: 1.5rem;
+}
+.gallary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.gallary-item {
+  overflow: hidden;
+}
+.gallary-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.gallary-item img:hover {
+  transform: scale(1.1);
 }
