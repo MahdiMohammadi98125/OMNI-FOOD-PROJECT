@@ -272,3 +272,30 @@
   text-align: center;
   font-size: 1.4rem;
 }
+
+/****************/
+/*Section testimonials and gallary */
+/****************/
+
+.section-testimonials {
+  padding: 0 9.6rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.6rem;
+}
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.testimonial-name {
+  color: #777;
+  font-size: 1.5rem;
+}
