@@ -317,16 +317,10 @@
 .section-pricing {
   padding: 9.6rem 0;
 }
-.plan-header {
-  text-align: center;
-  margin-bottom: 4.8rem;
-}
-.plan-name {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #cf711f;
-  margin-bottom: 1.2rem;
-  text-transform: uppercase;
+.pricing-plan {
+  width: 60%;
+  padding: 3rem;
+  border-radius: 1rem;
 }
 .plan-price {
   font-size: 5rem;
@@ -334,14 +328,53 @@
   margin-bottom: 1.2rem;
   color: #222;
 }
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+}
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  top: 5%;
+  right: -23%;
+
+  text-transform: uppercase;
+  background-color: #ffd43b;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.8rem 8rem;
+  color: #333;
+  transform: rotate(45deg);
+}
 .plan-price span {
   font-size: 3rem;
   font-weight: 500;
 }
+.plan-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.plan-name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
 .plan-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #6f6f6f;
 }
+.list-item {
+  font-size: 1.6rem;
+}
+
 .plan-sign-up {
   text-align: center;
   margin-top: 4.8rem;
