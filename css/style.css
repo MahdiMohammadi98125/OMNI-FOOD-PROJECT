@@ -251,23 +251,7 @@
   height: 1.8rem;
   color: #cf711f;
 }
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.4rem;
-}
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #cf711f;
-}
+
 .all-recipes {
   text-align: center;
   font-size: 1.4rem;
@@ -324,4 +308,41 @@
 
 .gallary-item img:hover {
   transform: scale(1.1);
+}
+
+/****************/
+/*pricing plan section */
+/****************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.plan-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #cf711f;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+.plan-price {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #222;
+}
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.plan-text {
+  font-size: 1.4rem;
+  color: #6f6f6f;
+}
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
 }
